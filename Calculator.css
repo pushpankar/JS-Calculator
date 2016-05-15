@@ -1,0 +1,32 @@
+.container
+{
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    margin-top: 8%;
+    padding: 8px;
+    background-color: brown;
+}
+.center
+{
+    text-align: center;
+}
+.result-view
+{
+    background: blue;
+    height: 45px;
+    padding: 8px;
+}
+.row
+{
+    margin: 8px auto;
+}
+.row span
+{
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    width: 40px;
+    height:  40px;
+    margin: 8px auto;
+}
