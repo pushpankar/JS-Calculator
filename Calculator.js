@@ -17,6 +17,7 @@ var init = function(){
     var element = document.getElementsByClassName("buttons");
     //  element.innerHTML = "hello";
     $(".buttons").html(row);
+    console.log("Testing");
     
 }
 //window.onload = init;
