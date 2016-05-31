@@ -3,7 +3,7 @@ var text = ["AC", "CE", "%", "/", "7", "8", "9", "*", "4", "5", "6", "-", "1", "
 var getRow = function(item1, item2, item3, item4){
     var each = "";
     for(var i = 0; i < 4; i++){
-	each += "<h3 class='row_item' id='i"+id+"'>"+text[id]+"</h3>";
+	each += "<button onclick='takeInput(this)' class='mButton' id='i"+id+"'>"+text[id]+"</button>";
 	id++;
     }
     return "<div class='row'>"+each+"</div>";
