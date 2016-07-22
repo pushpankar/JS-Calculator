@@ -19,3 +19,4 @@ var work = {
     document.getElementById("result").innerHTML = newText;
   }
 }
+
